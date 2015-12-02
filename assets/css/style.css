@@ -17,7 +17,17 @@ footer.page-footer{
 	color:#607d8b;
 }
 #site-heading{
-	color:#607d8b;
+	color:#00b8d4;
+}
+.intro{
+	background-color: #fff;
+	border: 5px solid #f0f0f0;
+}
+.intro h5{
+	text-align: center;
+}
+.intro p {
+	text-align: justify;
 }
 .latest-post{
 	background-color: #fff;
