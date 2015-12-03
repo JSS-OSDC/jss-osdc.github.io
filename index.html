@@ -6,12 +6,15 @@ layout: default
   <h4>Welcome to <span id="site-heading">OSDC JSS NOIDA</span></h4>
 
 </div>
-<div class="container">
+<div class="container latest-post">
   <h4>Latest Posts</h4>
   {% for post in site.posts %}
-    <div>
-    	<a href="{{ post.url }}">{{ post.title }}</a>
-    	{{ post.excerpt }}
+    <div class="post-list z-depth-3">
+    	<a href="{{ post.url }}">{{ post.title }}</a><br>
+	    <span class="date">{{ post.date | date: "%m/%d/%Y" }}</span>
+	         
+    	{{ post.excerpt}}
     </div>
   {% endfor %}
 </div>
+

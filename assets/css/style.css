@@ -19,3 +19,21 @@ footer.page-footer{
 #site-heading{
 	color:#607d8b;
 }
+.latest-post{
+	background-color: #fff;
+	outline: 10px solid #f0f0f0;
+}
+.post-list{
+	background-color: #fff;
+}
+.post-list a{
+	padding: 10px;
+	font-size: 20px;
+}
+.post-list p{
+	padding: 10px;
+	margin-bottom: 0px;
+}
+.date{
+	padding: 10px;
+}
