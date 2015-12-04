@@ -12,22 +12,32 @@ footer.page-footer{
 	background-color: #37474f;
 }
 /*index page css*/
+.page-header{
+
+	background: url("../images/back.jpg");
+	opacity: 0.6;
+	background-size: 100% 100%;
+	min-height: 300px;
+}
+@media screen and (min-width: 768px) {
+    .page-header{
+
+	background: url("../images/back.jpg");
+	background-size: 100% 100%;
+	min-height: 600px;
+}
 .container h4{
 	text-align: center;
 	color:#607d8b;
 }
-#site-heading{
-	color:#00b8d4;
+.cat-list{
+	background-color:#bdbdbd;
+	padding: 15px;
 }
-.intro{
-	background-color: #fff;
-	border: 5px solid #f0f0f0;
-}
-.intro h5{
+.cat-name{
+	border:5px solid #fff;
 	text-align: center;
-}
-.intro p {
-	text-align: justify;
+	width: 80%;
 }
 .latest-post{
 	background-color: #fff;
