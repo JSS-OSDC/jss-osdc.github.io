@@ -5,6 +5,10 @@ body{
 nav{
 	background-color: #37474f;
 }
+.brand-logo img{
+	max-width: 150px;
+	padding-top:10px;
+}
 /***header css ended***/
 
 /*footer Css*/
