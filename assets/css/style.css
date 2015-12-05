@@ -1,5 +1,5 @@
 body{
-	
+	background-color: #f0f0f0;
 }
 /*Header CSS*/
 nav{
@@ -39,21 +39,17 @@ footer.page-footer{
 	text-align: center;
 	width: 80%;
 }
-.latest-post{
-	background-color: #fff;
-	outline: 10px solid #f0f0f0;
-}
-.post-list{
-	background-color: #fff;
-}
-.post-list a{
+.latest-blog-list{
+	background-color: #e0e0e0 ;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	padding: 10px;
-	font-size: 20px;
 }
-.post-list p{
-	padding: 10px;
-	margin-bottom: 0px;
+.latest-blog-list a{
+	color: #000 !important;
 }
-.date{
-	padding: 10px;
+.list-tags{
+	border:2px solid #fff;
+	border-radius: 50px;
+	padding: 2px;
 }
